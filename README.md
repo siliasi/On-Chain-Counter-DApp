@@ -27,14 +27,14 @@ Before running the app, ensure you have the following installed:
    cd on-chain-counter-dapp
 
  2. **Install Dependencies**:
-  ```bash
+   ```bash
 npm install
 
-3. Run the App:
-
+3. **Run the App**:
+  ```bash
 npm start
 
-Open the App:
+4 ##Open the App:
 The app will open in your default browser at http://localhost:3000.
 
 Usage
