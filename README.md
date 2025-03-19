@@ -26,10 +26,12 @@ Before running the app, ensure you have the following installed:
    git clone https://github.com/siliasi/on-chain-counter-dapp.git
    cd on-chain-counter-dapp
 
-   Install Dependencies:
+ 2. **Install Dependencies**:
+  ```bash
 npm install
 
-Run the App:
+3. Run the App:
+
 npm start
 
 Open the App:
