@@ -1,66 +1,20 @@
-## Foundry
+# On-Chain Counter DApp
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A simple decentralized application (DApp) that allows users to interact with a smart contract deployed on the Monad Testnet. The app features a counter that can be incremented or decremented, with all changes stored on the blockchain.
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Connect Wallet**: Connect your Web3 wallet (e.g., MetaMask) to the Monad Testnet.
+- **View Counter**: Display the current value of the on-chain counter.
+- **Increment Counter**: Increase the counter value by 1.
+- **Decrement Counter**: Decrease the counter value by 1 (if greater than 0).
+- **Disconnect Wallet**: Disconnect your wallet and reset the app.
 
-## Documentation
+## Prerequisites
 
-https://book.getfoundry.sh/
+Before running the app, ensure you have the following installed:
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+- A Web3 wallet (e.g., [MetaMask](https://metamask.io/))
+- Testnet MON tokens (for gas fees on the Monad Testnet)
